@@ -57,17 +57,10 @@ Sales API를 통해 백엔드에 요청
 2. 메세지를 소비하는 리소스를 통해 Factory API가 호출됩니다.
 3. 수신된 메세지에 의해 트리거가 된 컴퓨팅 리소스가 상품 재고를 증가시킵니다.
 </details>
+<details>
+<summary>추가사항</summary>
 
+<!-- summary 아래 한칸 공백 두어야함 -->
+1. 재고가 없는 상황에서의 광고 중단을 위한 알림 시스템 구축
+</details>
 
-## Step 1: Serverless를 이용한 Lambda 생성
-
-![](https://contents-img-jeonghun.s3.ap-northeast-2.amazonaws.com/project3/project3-tutorial-step1.png)
-
-
-## Step 2: Serverless를 이용한 Lambda - SQS - Lambda 구조 생성
-
-![](https://contents-img-jeonghun.s3.ap-northeast-2.amazonaws.com/project3/project3-tutorial-step2.png)
-
-## Step 3: DLQ 연결 및 K6 성능테스트
-
-![](https://contents-img-jeonghun.s3.ap-northeast-2.amazonaws.com/project3/project3-tutorial-step3.png)
